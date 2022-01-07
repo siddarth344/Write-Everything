@@ -30,6 +30,8 @@ class CreateNotesFragment : Fragment() {
         // Inflate the layout for this fragment
         binding = FragmentCreateNotesBinding.inflate(layoutInflater, container, false)
         binding.pGreen.setImageResource(R.drawable.ic_baseline_done_24)
+
+
         binding.pGreen.setOnClickListener {
             priority = "1"
             binding.pGreen.setImageResource(R.drawable.ic_baseline_done_24)
